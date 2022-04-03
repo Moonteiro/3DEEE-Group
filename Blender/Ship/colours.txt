@@ -1,0 +1,8 @@
+gray D5D5D5
+
+brown: 6E4326
+
+windows: 576873
+
+brown 2: 5F4941
+
