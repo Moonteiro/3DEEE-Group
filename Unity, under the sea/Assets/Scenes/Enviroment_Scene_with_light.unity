@@ -384,6 +384,7 @@ GameObject:
   - component: {fileID: 355476117}
   - component: {fileID: 355476119}
   - component: {fileID: 355476118}
+  - component: {fileID: 355476120}
   m_Layer: 0
   m_Name: Fish (1)
   m_TagString: Untagged
@@ -398,14 +399,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355476116}
-  m_LocalRotation: {x: -0.6821816, y: 0.7038462, z: -0.12901148, w: 0.15028244}
-  m_LocalPosition: {x: -16.583435, y: 2.3739395, z: -0.375309}
+  m_LocalRotation: {x: 0.039389577, y: -0.014931308, z: -0.7154163, w: 0.69742745}
+  m_LocalPosition: {x: 9, y: 5.3, z: 5.6}
   m_LocalScale: {x: 100.00001, y: 100, z: 100}
   m_Children:
   - {fileID: 2102099946}
   m_Father: {fileID: 1019866826}
   m_RootOrder: 52
-  m_LocalEulerAnglesHint: {x: -1.343, y: -202.81, z: -87.938}
+  m_LocalEulerAnglesHint: {x: 1.924, y: -364.429, z: -91.533}
 --- !u!23 &355476118
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -455,6 +456,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355476116}
   m_Mesh: {fileID: 2586148439552901436, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+--- !u!95 &355476120
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355476116}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fb4bfee1407a70d4381d281e501c4267, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &525665944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,6 +1667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 943719766}
   - component: {fileID: 943719767}
+  - component: {fileID: 943719768}
   m_Layer: 0
   m_Name: bar light
   m_TagString: Untagged
@@ -1730,6 +1751,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &943719768
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943719765}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e6bfbc8dcbc033340b0ce83bbac05fb4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &959117914
 GameObject:
   m_ObjectHideFlags: 0
@@ -2033,6 +2073,46 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.272
       objectReference: {fileID: 0}
+    - target: {fileID: 5106100113720459132, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106100113720459132, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106100113720459132, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106100113720459132, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.033338282
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106100113720459132, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.69774294
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106100113720459132, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7130912
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106100113720459132, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.059534293
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106100113720459132, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106100113720459132, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 187.511
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106100113720459132, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -88.898
+      objectReference: {fileID: 0}
     - target: {fileID: 9126209871547153641, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.76
@@ -2054,6 +2134,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5507417522431985040, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
   m_PrefabInstance: {fileID: 1019866825}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1019866829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1104751823927148627, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+  m_PrefabInstance: {fileID: 1019866825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1019866830
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019866829}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e3fe50620bdd5e8468320b6b4a0f3ca6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1053924832
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,6 +2435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1263797655}
   - component: {fileID: 1263797656}
+  - component: {fileID: 1263797657}
   m_Layer: 0
   m_Name: bar light
   m_TagString: Untagged
@@ -2364,7 +2469,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 20
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2414,6 +2519,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &1263797657
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263797654}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 83943f9e38b9c6645908b4c498ace73a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1374515872 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8635650477101762110, guid: c08b123cc1b4f7d42af07b52802049e4, type: 3}
