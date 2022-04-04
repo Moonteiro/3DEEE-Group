@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Enviroment Scene.unity
+- path: Assets/Scenes/Enviroment_Scene_with_light.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
