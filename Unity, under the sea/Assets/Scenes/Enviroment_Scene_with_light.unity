@@ -384,6 +384,7 @@ GameObject:
   - component: {fileID: 355476117}
   - component: {fileID: 355476119}
   - component: {fileID: 355476118}
+  - component: {fileID: 355476120}
   m_Layer: 0
   m_Name: Fish (1)
   m_TagString: Untagged
@@ -455,6 +456,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355476116}
   m_Mesh: {fileID: 2586148439552901436, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+--- !u!95 &355476120
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355476116}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd6117efbfa09764bb802c105eb01b2d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &525665944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1939,6 +1959,7 @@ GameObject:
   - component: {fileID: 1187328636}
   - component: {fileID: 1187328638}
   - component: {fileID: 1187328637}
+  - component: {fileID: 1187328639}
   m_Layer: 0
   m_Name: RockB (1)
   m_TagString: Untagged
@@ -2009,6 +2030,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187328635}
   m_Mesh: {fileID: -7447347080413119828, guid: cdc762b0d253b6f4a9b59a766d6bd3e0, type: 3}
+--- !u!95 &1187328639
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187328635}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 407a9b0388e5a0e4c9f291fbdb77f137, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1261562191
 GameObject:
   m_ObjectHideFlags: 0
@@ -8933,14 +8973,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8118620213921091940}
-  m_LocalRotation: {x: -0.50285107, y: 0.49713308, z: 0.5146864, w: -0.48486847}
-  m_LocalPosition: {x: -2.258039, y: 4.7587466, z: 10.411766}
+  m_LocalRotation: {x: 0.012733298, y: -0.038465112, z: 0.71453756, w: -0.69842285}
+  m_LocalPosition: {x: -0.1, y: -5.3, z: -28.3}
   m_LocalScale: {x: 100.00001, y: 100, z: 100}
   m_Children:
   - {fileID: 1261562192}
   m_Father: {fileID: 543450652688550178}
   m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.131, y: 4.128, z: -91.23}
 --- !u!23 &5112466240056867877
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11469,6 +11509,7 @@ GameObject:
   - component: {fileID: 5106100114446504373}
   - component: {fileID: 1501216926935829231}
   - component: {fileID: 8677086460396315242}
+  - component: {fileID: 8118620213921091941}
   m_Layer: 0
   m_Name: Fish
   m_TagString: Untagged
@@ -11476,6 +11517,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &8118620213921091941
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118620213921091940}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e3fe50620bdd5e8468320b6b4a0f3ca6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8126427421268044312
 GameObject:
   m_ObjectHideFlags: 0
